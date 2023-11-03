@@ -2,12 +2,21 @@ body {
    background: whitesmoke;
 }
 .power {
-    width: 20%;
-    height: 100%;
+    width: 30%;
+    
 }
 .windows {
-    width: 5%;
+    width: 30%;
 }
 .down {
     rotate: -90deg;
+}
+td, th {
+    border: 1px solid black;
+    padding: .25em;
+    width: 25%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
 }
