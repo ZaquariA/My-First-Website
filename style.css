@@ -1,3 +1,13 @@
 body {
    background: whitesmoke;
 }
+.power {
+    width: 20%;
+    height: 100%;
+}
+.windows {
+    width: 5%;
+}
+.down {
+    rotate: -90deg;
+}
