@@ -1,7 +1,104 @@
 body {
    background: whitesmoke;
 }
-#square {
+#keyboard > div {
+    margin-bottom: .5em;
+}
+#row3 > div {
+    display: inline-block;
+}
+#row4 > div {
+    display: inline-block;
+}
+#row5 > div {
+    display: inline-block;
+}
+#tabKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+}
+#zKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+}
+#aKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+}
+#qKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+}
+#wKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+}
+#sKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+}
+#xKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+}
+#eKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+}
+#dKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+}
+#cKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+}
+#rKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+}
+#tKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+}
+#yKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+}
+#uKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+}
+#iKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+}
+#oKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+}
+#pKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+}
+#Key {
     width: 50px;
     height: 50px;
     background: lightgrey;
