@@ -1,22 +1,8 @@
 body {
    background: whitesmoke;
 }
-.power {
-    width: 30%;
-    
-}
-.windows {
-    width: 30%;
-}
-.down {
-    rotate: -90deg;
-}
-td, th {
-    border: 1px solid black;
-    padding: .25em;
-    width: 25%;
-}
-table {
-    border-collapse: collapse;
-    width: 100%;
+#square {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
 }
