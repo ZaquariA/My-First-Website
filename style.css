@@ -1,8 +1,30 @@
 body {
    background: whitesmoke;
 }
+h1 {
+    text-align: center;
+}
+#inputdiv {
+    position: relative;
+    left: 40px;
+}
+textarea {
+    border: .5px solid black;
+    background: white;
+}
+#keyboard {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 18px;
+}
 #keyboard > div {
-    margin-bottom: .5em;
+    margin-bottom: .3em;
+    text-align: center;
+    line-height: 50px;
+}
+#row2 > div {
+    display: inline-block;
 }
 #row3 > div {
     display: inline-block;
@@ -13,93 +35,425 @@ body {
 #row5 > div {
     display: inline-block;
 }
+#row6 > div {
+    display: inline-block;
+}
+/* row 2 starts here*/
+#bckquoteKey {
+    width: 35px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#oneKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#twoKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#threeKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#fourKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#fiveKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#sixKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#sevenKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#eightKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#nineKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#zeroKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#minusKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#equalKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#bckspcKey {
+    width: 95px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+/*row 3 starts here */
 #tabKey {
-    width: 50px;
+    width: 70px;
     height: 50px;
     background: lightgrey;
-}
-#zKey {
-    width: 50px;
-    height: 50px;
-    background: lightgrey;
-}
-#aKey {
-    width: 50px;
-    height: 50px;
-    background: lightgrey;
+    border: .1px solid black;
 }
 #qKey {
     width: 50px;
     height: 50px;
     background: lightgrey;
+    border: .1px solid black;
 }
 #wKey {
     width: 50px;
     height: 50px;
     background: lightgrey;
-}
-#sKey {
-    width: 50px;
-    height: 50px;
-    background: lightgrey;
-}
-#xKey {
-    width: 50px;
-    height: 50px;
-    background: lightgrey;
+    border: .1px solid black;
 }
 #eKey {
     width: 50px;
     height: 50px;
     background: lightgrey;
-}
-#dKey {
-    width: 50px;
-    height: 50px;
-    background: lightgrey;
-}
-#cKey {
-    width: 50px;
-    height: 50px;
-    background: lightgrey;
+    border: .1px solid black;
 }
 #rKey {
     width: 50px;
     height: 50px;
     background: lightgrey;
+    border: .1px solid black;
 }
 #tKey {
     width: 50px;
     height: 50px;
     background: lightgrey;
+    border: .1px solid black;
 }
 #yKey {
     width: 50px;
     height: 50px;
     background: lightgrey;
+    border: .1px solid black;
 }
 #uKey {
     width: 50px;
     height: 50px;
     background: lightgrey;
+    border: .1px solid black;
 }
 #iKey {
     width: 50px;
     height: 50px;
     background: lightgrey;
+    border: .1px solid black;
 }
 #oKey {
     width: 50px;
     height: 50px;
     background: lightgrey;
+    border: .1px solid black;
 }
 #pKey {
     width: 50px;
     height: 50px;
     background: lightgrey;
+    border: .1px solid black;
+}
+#opnbracketKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#clsbracketKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#bckslashKey {
+    width: 60px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+/* row 4 starts here*/
+#capslockKey {
+    width: 80px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#aKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#sKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#dKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#fKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#gKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#hKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#jKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#kKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#lKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#semicolKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#quoteKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#enterKey {
+    width: 105px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+/*row 5 starts here*/
+#lftshiftKey {
+    width: 110px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#zKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#xKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#cKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#vKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#bKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#nKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#mKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#commaKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#periodKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#fwdslashKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#rightshiftKey {
+    width: 130px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+/*row 6 starts here*/
+#lftctrlKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#fnKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#windowsKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    position: relative;
+    border: .1px solid black;
+}
+.windowsimg {
+    
+}
+#lftaltKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#spacebarKey {
+    width: 300px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#rightaltKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#rightctrlKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
+}
+#lftarrKey {
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    rotate: 180deg;
+    margin-right: .8em;
+    border: .1px solid black;
+}
+#invisKey {
+    width: 20px;
+    height: 0px;
+    display: none;
+}
+.upanddownarrows > div {
+    width: 25px;
+    height: 50px;
+}
+
+#uparrKey {
+    display: flex;
+    background: lightgrey;
+    rotate: -90deg;
+    position: absolute;
+    top: 654px;
+    right: 118px;
+    border: .1px solid black;
+    
+}
+#dwnarrKey {
+    display: flex;
+    background: lightgrey;
+    rotate: 90deg;
+    position: absolute; 
+    top: 682px; 
+    right: 118px;
+    border: .1px solid black;
+}
+#rightarrKey {
+    margin-left: .8em;
+    width: 50px;
+    height: 50px;
+    background: lightgrey;
+    border: .1px solid black;
 }
 #Key {
     width: 50px;
     height: 50px;
     background: lightgrey;
 }
+
