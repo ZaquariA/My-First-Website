@@ -1,6 +1,4 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content is added by JavaScript!!!";
-document.querySelector("body").appendChild(h2);
+
 /*This is where row 2 starts!!!*/
 document.addEventListener("keydown", function(highlight) {
     if(highlight.code === "Backquote") {
