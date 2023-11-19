@@ -223,25 +223,25 @@ textarea {
 #aKey {
     width: 50px;
     height: 50px;
-    background: lightgrey;
+    background: darkcyan;
     border: .1px solid black;
 }
 #sKey {
     width: 50px;
     height: 50px;
-    background: lightgrey;
+    background: darkcyan;
     border: .1px solid black;
 }
 #dKey {
     width: 50px;
     height: 50px;
-    background: lightgrey;
+    background: darkcyan;
     border: .1px solid black;
 }
 #fKey {
     width: 50px;
     height: 50px;
-    background: lightgrey;
+    background: darkcyan;
     border: .1px solid black;
 }
 #gKey {
@@ -259,25 +259,25 @@ textarea {
 #jKey {
     width: 50px;
     height: 50px;
-    background: lightgrey;
+    background: darkcyan;
     border: .1px solid black;
 }
 #kKey {
     width: 50px;
     height: 50px;
-    background: lightgrey;
+    background: darkcyan;
     border: .1px solid black;
 }
 #lKey {
     width: 50px;
     height: 50px;
-    background: lightgrey;
+    background: darkcyan;
     border: .1px solid black;
 }
 #semicolKey {
     width: 50px;
     height: 50px;
-    background: lightgrey;
+    background: darkcyan;
     border: .1px solid black;
 }
 #quoteKey {
@@ -394,7 +394,7 @@ textarea {
 #spacebarKey {
     width: 300px;
     height: 50px;
-    background: lightgrey;
+    background: darkcyan;
     border: .1px solid black;
 }
 #rightaltKey {
@@ -456,6 +456,5 @@ textarea {
 #Key {
     width: 50px;
     height: 50px;
-    background: lightgrey;
+    background: rgb(211, 211, 211)133, 133);
 }
-

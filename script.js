@@ -359,7 +359,7 @@ document.addEventListener("keydown", function(highlight) {
 document.addEventListener("keyup", function(highlight) {
     if(highlight.key.toLowerCase() === "a") {
         const aKey = document.querySelector("#aKey");
-        aKey.style.background = "lightgrey";
+        aKey.style.background = "darkcyan";
     }
 });
 document.addEventListener("keydown", function(highlight) {
@@ -371,7 +371,7 @@ document.addEventListener("keydown", function(highlight) {
 document.addEventListener("keyup", function(highlight) {
     if(highlight.key.toLowerCase() === "s") {
     const sKey = document.querySelector("#sKey");
-    sKey.style.background = "lightgrey";
+    sKey.style.background = "darkcyan";
     }
 });
 document.addEventListener("keydown", function(highlight) {
@@ -383,7 +383,7 @@ document.addEventListener("keydown", function(highlight) {
 document.addEventListener("keyup", function(highlight) {
     if(highlight.key.toLowerCase() === "d") {
     const dKey = document.querySelector("#dKey");
-    dKey.style.background = "lightgrey";
+    dKey.style.background = "darkcyan";
     }
 });
 document.addEventListener("keydown", function(highlight) {
@@ -395,7 +395,7 @@ document.addEventListener("keydown", function(highlight) {
 document.addEventListener("keyup", function(highlight) {
     if(highlight.key.toLowerCase() === "f") {
     const fKey = document.querySelector("#fKey");
-    fKey.style.background = "lightgrey";
+    fKey.style.background = "darkcyan";
     }
 });
 document.addEventListener("keydown", function(highlight) {
@@ -431,7 +431,7 @@ document.addEventListener("keydown", function(highlight) {
 document.addEventListener("keyup", function(highlight) {
     if(highlight.key.toLowerCase() === "j") {
     const jKey = document.querySelector("#jKey");
-    jKey.style.background = "lightgrey";
+    jKey.style.background = "darkcyan";
     }
 });
 document.addEventListener("keydown", function(highlight) {
@@ -443,7 +443,7 @@ document.addEventListener("keydown", function(highlight) {
 document.addEventListener("keyup", function(highlight) {
     if(highlight.key.toLowerCase() === "k") {
     const kKey = document.querySelector("#kKey");
-    kKey.style.background = "lightgrey";
+    kKey.style.background = "darkcyan";
     }
 });
 document.addEventListener("keydown", function(highlight) {
@@ -455,7 +455,7 @@ document.addEventListener("keydown", function(highlight) {
 document.addEventListener("keyup", function(highlight) {
     if(highlight.key.toLowerCase() === "l") {
     const lKey = document.querySelector("#lKey");
-    lKey.style.background = "lightgrey";
+    lKey.style.background = "darkcyan";
     }
 });
 document.addEventListener("keydown", function(highlight) {
@@ -467,7 +467,7 @@ document.addEventListener("keydown", function(highlight) {
 document.addEventListener("keyup", function(highlight) {
     if(highlight.key.toLowerCase() === ";") {
     const Key = document.querySelector("#semicolKey");
-    Key.style.background = "lightgrey";
+    Key.style.background = "darkcyan";
     }
 });
 document.addEventListener("keydown", function(highlight) {
@@ -694,7 +694,7 @@ document.addEventListener("keydown", function(highlight) {
 document.addEventListener("keyup", function(highlight) {
     if(highlight.code === "Space") {
     const Key = document.querySelector("#spacebarKey");
-    Key.style.background = "lightgrey";
+    Key.style.background = "darkcyan";
     }
 });
 document.addEventListener("keydown", function(highlight) {
